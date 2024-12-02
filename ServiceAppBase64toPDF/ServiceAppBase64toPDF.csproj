@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-ServiceAppBase64toPDF-60480b4c-71a7-42d6-a9c6-1e47ea65895a</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ServiceAppBase64toPDF.Application\ServiceAppBase64toPDF.Application.csproj" />
+    <ProjectReference Include="..\ServiceAppBase64toPDF.Infrastructure\ServiceAppBase64toPDF.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
